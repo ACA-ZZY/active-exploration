@@ -1,0 +1,10 @@
+{
+  "scale_id": "common_fixed_dataset_v1:hysteretic-lab:nominal:iqr",
+  "dataset_id": "common_fixed_dataset_v1:hysteretic-lab:nominal",
+  "q25": 0.10153414613695153,
+  "q75": 0.137625360706819,
+  "iqr": 0.03609121456986747,
+  "n_states": 20000,
+  "quantile_rule": "linear",
+  "no_model_fitting": true
+}

@@ -1,0 +1,15 @@
+data_root: data/external/datasets
+fos_file: data/external/datasets/Fs.txt
+output_root: outputs/kfold
+kfold: 10
+num_slopes: 10
+epochs: 50
+branch_finetune_epochs: 3
+batch_size: 1
+learning_rate: 0.0001
+fs_scale_min: 0.5
+fs_scale_max: 3.5
+validation_holdout: 1500
+device: cuda:0
+seed: 42
+pretrained_checkpoint:

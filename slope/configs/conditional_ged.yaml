@@ -1,0 +1,7 @@
+fold_dir: outputs/kfold/fold_1
+output_dir: outputs/conditional_ged/fold_1/Verify
+test_count: 500
+num_slopes: 10
+min_samples_per_slope: 30
+bins: 4
+scale_multiplier: 1.12

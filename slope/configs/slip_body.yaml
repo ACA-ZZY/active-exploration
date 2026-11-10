@@ -1,0 +1,6 @@
+input_npy: data/external/predicted_displacement.npy
+domain_mask_npy: data/external/domain_mask.npy
+output_npy: outputs/slip/body_mask.npy
+air_threshold: 0.0
+vertical_axis: 1
+min_stable_region: 400

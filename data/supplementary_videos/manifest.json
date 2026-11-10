@@ -1,0 +1,1591 @@
+{
+  "description": "Recorded inputs, true responses, and five-stage predictions for Supplementary Videos 1–5.",
+  "campaign": "common_fixed_dataset_v1",
+  "replicate": 0,
+  "total_sample_rows": 44000,
+  "data_files_total_bytes": 11441018,
+  "files": [
+    {
+      "supplementary_video": 1,
+      "case_id": "two-sided-kink",
+      "file": "two-sided-kink.npz",
+      "bytes": 740454,
+      "dimensions": 2,
+      "rows": {
+        "initial": 1000,
+        "query": 2000,
+        "fixed": 5000
+      },
+      "stages": [
+        "A",
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dataset_id": "common_fixed_dataset_v1:two-sided-kink:tail",
+      "arrays": {
+        "initial_x": {
+          "shape": [
+            1000,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "initial_y": {
+          "shape": [
+            1000
+          ],
+          "dtype": "float64"
+        },
+        "initial_coordinate": {
+          "shape": [
+            1000
+          ],
+          "dtype": "float64"
+        },
+        "initial_prediction": {
+          "shape": [
+            1000,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "query_x": {
+          "shape": [
+            2000,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "query_y": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_prediction": {
+          "shape": [
+            2000,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "query_coordinate": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_round": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int64"
+        },
+        "query_input_id": {
+          "shape": [
+            2000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_x": {
+          "shape": [
+            5000,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "fixed_y": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_coordinate": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_prediction": {
+          "shape": [
+            5000,
+            5
+          ],
+          "dtype": "float64"
+        },
+        "fixed_sample_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U4"
+        },
+        "fixed_input_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_weight": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_partition": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int16"
+        },
+        "stage": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U2"
+        },
+        "model_state_id": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U64"
+        },
+        "dataset_id": {
+          "shape": [],
+          "dtype": "<U60"
+        }
+      },
+      "severity_direction": -1,
+      "severity_window_edges": [
+        -3.4051463730485274,
+        -2.4741706964510994,
+        -1.7594732685080743,
+        -0.6688162271737585,
+        0.38434682693521083,
+        0.6795754605590201
+      ],
+      "coordinates": {
+        "panel_a_x": "x1",
+        "panel_a_y": "x2",
+        "panel_b_x": "abs(sum(x)/sqrt(2))",
+        "response_units": "dimensionless"
+      },
+      "display": {
+        "case_id": "two-sided-kink",
+        "file": "01_双侧折点.mp4",
+        "width": 1920,
+        "height": 1080,
+        "frames": 600,
+        "fps": 60,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "style": "benchmark-abc-combined-v1",
+        "tracking_highlights_shown": false,
+        "panel_layout": {
+          "a": "3D actual input projections and responses",
+          "b": "response refinement",
+          "c": "response distributions by source level"
+        },
+        "timeline_frames": {
+          "lead": 30,
+          "round_starts": [
+            30,
+            270,
+            366,
+            462
+          ],
+          "round_frames": [
+            240,
+            96,
+            96,
+            96
+          ],
+          "end": 42
+        },
+        "initial_truth_scope": "initial training labels only",
+        "held_out_truth_shown": false,
+        "query_markers_uniform": false,
+        "coverage_colour": "paired prediction and true response",
+        "window_palette": [
+          "#73A8CC",
+          "#2C6B92",
+          "#238F80",
+          "#C79C48",
+          "#C86C4E"
+        ],
+        "model_colour": "#285D63",
+        "density_palette": [
+          "#F8FAFA",
+          "#F0F5F4",
+          "#E3EFEC",
+          "#D2E4DF",
+          "#B8D6D1"
+        ],
+        "prediction_colour_tint": 0.5,
+        "prediction_marker_half": null,
+        "true_response_marker_half": null,
+        "true_response_fixed_after_label": true,
+        "coverage_marker_size": 28.0,
+        "coverage_alpha": 0.9,
+        "response_marker_size": 16.0,
+        "response_alpha": 0.85,
+        "prediction_window_changes_by_round": [
+          207,
+          41,
+          81,
+          93
+        ],
+        "display_interpolation_only": true,
+        "point_source_levels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "layout_revision": "current-round-contrast",
+        "camera": {
+          "elevation": 25.0,
+          "azimuth": -55.0,
+          "projection": "perspective",
+          "focal_length": 1.35,
+          "fixed": true
+        },
+        "response_scale": "linear",
+        "response_transform_parameters": {},
+        "response_grid_range": [
+          -3.4359881749824535,
+          5.454029080238412
+        ],
+        "response_grid_points": 1024,
+        "bandwidth": 0.06737150694595839,
+        "bandwidth_candidates": [
+          0.10854283200751362,
+          0.11857517821761206,
+          0.06737150694595839,
+          0.046575765411475505,
+          0.04628020609548611
+        ],
+        "bandwidth_calibration": "first-round pre-update predictions; median robust Silverman bandwidth",
+        "density_coordinate": "original response",
+        "density_height_scale": 0.27646025390733353,
+        "display_density_min_height": 0.0001,
+        "query_markers_uniform_within_round": true,
+        "history_marker_size": 4.0,
+        "history_response_marker_size": 3.0,
+        "current_true_alpha": 0.97,
+        "current_prediction_alpha": 0.92,
+        "history_true_alpha": 0.1,
+        "history_prediction_alpha": 0.0,
+        "history_transition_seconds": 0.16,
+        "current_prediction_marker": "hollow circle",
+        "current_true_marker": "solid circle with thin white edge",
+        "fixed_legends_visible_from_first_frame": true,
+        "all_2000_queries_retained": true,
+        "reference_floor_height": -3.4359881749824535,
+        "reference_coordinate_planes": 3,
+        "interpolated_response_surface": false,
+        "points_per_level_per_round": 100,
+        "panel_axes_bounds": {
+          "b": [
+            0.685,
+            0.555,
+            0.2849999999999999,
+            0.25
+          ],
+          "c": [
+            0.685,
+            0.085,
+            0.2849999999999999,
+            0.285
+          ]
+        },
+        "layer_density_scope": "all acquired labels retained across rounds"
+      },
+      "excel_comparison": {
+        "all_rows_checked": 8000,
+        "max_absolute_numeric_difference": 8.881784197001252e-16,
+        "rtol": 5e-14,
+        "atol": 5e-14,
+        "input_ids_match": true,
+        "sample_ids_match": true,
+        "rounds_and_levels_match": true,
+        "windows_match": true
+      }
+    },
+    {
+      "supplementary_video": 2,
+      "case_id": "radial-kink",
+      "file": "radial-kink.npz",
+      "bytes": 1113959,
+      "dimensions": 8,
+      "rows": {
+        "initial": 1000,
+        "query": 2000,
+        "fixed": 5000
+      },
+      "stages": [
+        "A",
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dataset_id": "common_fixed_dataset_v1:radial-kink:tail",
+      "arrays": {
+        "initial_x": {
+          "shape": [
+            1000,
+            8
+          ],
+          "dtype": "float64"
+        },
+        "initial_y": {
+          "shape": [
+            1000
+          ],
+          "dtype": "float64"
+        },
+        "initial_coordinate": {
+          "shape": [
+            1000
+          ],
+          "dtype": "float64"
+        },
+        "initial_prediction": {
+          "shape": [
+            1000,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "query_x": {
+          "shape": [
+            2000,
+            8
+          ],
+          "dtype": "float64"
+        },
+        "query_y": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_prediction": {
+          "shape": [
+            2000,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "query_coordinate": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_round": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int64"
+        },
+        "query_input_id": {
+          "shape": [
+            2000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_x": {
+          "shape": [
+            5000,
+            8
+          ],
+          "dtype": "float64"
+        },
+        "fixed_y": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_coordinate": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_prediction": {
+          "shape": [
+            5000,
+            5
+          ],
+          "dtype": "float64"
+        },
+        "fixed_sample_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U4"
+        },
+        "fixed_input_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_weight": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_partition": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int16"
+        },
+        "stage": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U2"
+        },
+        "model_state_id": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U64"
+        },
+        "dataset_id": {
+          "shape": [],
+          "dtype": "<U57"
+        }
+      },
+      "severity_direction": -1,
+      "severity_window_edges": [
+        -7.359608465872068,
+        -5.67744124258419,
+        -3.9377592208119285,
+        -1.0861859993688405,
+        1.6657968222111066,
+        2.4800208680585207
+      ],
+      "coordinates": {
+        "panel_a_x": "norm(x1:4)",
+        "panel_a_y": "norm(x5:8)",
+        "panel_b_x": "(norm(x)^2-8)/4",
+        "response_units": "dimensionless"
+      },
+      "display": {
+        "case_id": "radial-kink",
+        "file": "02_径向壳层折点.mp4",
+        "width": 1920,
+        "height": 1080,
+        "frames": 600,
+        "fps": 60,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "style": "benchmark-abc-combined-v1",
+        "tracking_highlights_shown": false,
+        "panel_layout": {
+          "a": "3D actual input projections and responses",
+          "b": "response refinement",
+          "c": "response distributions by source level"
+        },
+        "timeline_frames": {
+          "lead": 30,
+          "round_starts": [
+            30,
+            270,
+            366,
+            462
+          ],
+          "round_frames": [
+            240,
+            96,
+            96,
+            96
+          ],
+          "end": 42
+        },
+        "initial_truth_scope": "initial training labels only",
+        "held_out_truth_shown": false,
+        "query_markers_uniform": false,
+        "coverage_colour": "paired prediction and true response",
+        "window_palette": [
+          "#73A8CC",
+          "#2C6B92",
+          "#238F80",
+          "#C79C48",
+          "#C86C4E"
+        ],
+        "model_colour": "#285D63",
+        "density_palette": [
+          "#F8FAFA",
+          "#F0F5F4",
+          "#E3EFEC",
+          "#D2E4DF",
+          "#B8D6D1"
+        ],
+        "prediction_colour_tint": 0.5,
+        "prediction_marker_half": null,
+        "true_response_marker_half": null,
+        "true_response_fixed_after_label": true,
+        "coverage_marker_size": 28.0,
+        "coverage_alpha": 0.9,
+        "response_marker_size": 16.0,
+        "response_alpha": 0.85,
+        "prediction_window_changes_by_round": [
+          183,
+          43,
+          64,
+          87
+        ],
+        "display_interpolation_only": true,
+        "point_source_levels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "layout_revision": "current-round-contrast",
+        "camera": {
+          "elevation": 25.0,
+          "azimuth": -55.0,
+          "projection": "perspective",
+          "focal_length": 1.35,
+          "fixed": true
+        },
+        "response_scale": "linear",
+        "response_transform_parameters": {},
+        "response_grid_range": [
+          -9.713258821949701,
+          11.543167315501906
+        ],
+        "response_grid_points": 1024,
+        "bandwidth": 0.18326310731501994,
+        "bandwidth_candidates": [
+          0.16048671640567727,
+          0.2634486809061931,
+          0.22099219986391222,
+          0.18326310731501994,
+          0.15704971776189128
+        ],
+        "bandwidth_calibration": "first-round pre-update predictions; median robust Silverman bandwidth",
+        "density_coordinate": "original response",
+        "density_height_scale": 0.8490100359968177,
+        "display_density_min_height": 0.0001,
+        "query_markers_uniform_within_round": true,
+        "history_marker_size": 4.0,
+        "history_response_marker_size": 3.0,
+        "current_true_alpha": 0.97,
+        "current_prediction_alpha": 0.92,
+        "history_true_alpha": 0.1,
+        "history_prediction_alpha": 0.0,
+        "history_transition_seconds": 0.16,
+        "current_prediction_marker": "hollow circle",
+        "current_true_marker": "solid circle with thin white edge",
+        "fixed_legends_visible_from_first_frame": true,
+        "all_2000_queries_retained": true,
+        "reference_floor_height": -9.713258821949701,
+        "reference_coordinate_planes": 3,
+        "interpolated_response_surface": false,
+        "points_per_level_per_round": 100,
+        "panel_axes_bounds": {
+          "b": [
+            0.685,
+            0.555,
+            0.2849999999999999,
+            0.25
+          ],
+          "c": [
+            0.685,
+            0.085,
+            0.2849999999999999,
+            0.285
+          ]
+        },
+        "layer_density_scope": "all acquired labels retained across rounds"
+      },
+      "excel_comparison": {
+        "all_rows_checked": 8000,
+        "max_absolute_numeric_difference": 5.329070518200751e-15,
+        "rtol": 5e-14,
+        "atol": 5e-14,
+        "input_ids_match": true,
+        "sample_ids_match": true,
+        "rounds_and_levels_match": true,
+        "windows_match": true
+      }
+    },
+    {
+      "supplementary_video": 3,
+      "case_id": "tail-kink",
+      "file": "tail-kink.npz",
+      "bytes": 3689802,
+      "dimensions": 50,
+      "rows": {
+        "initial": 1000,
+        "query": 2000,
+        "fixed": 5000
+      },
+      "stages": [
+        "A",
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dataset_id": "common_fixed_dataset_v1:tail-kink:tail",
+      "arrays": {
+        "initial_x": {
+          "shape": [
+            1000,
+            50
+          ],
+          "dtype": "float64"
+        },
+        "initial_y": {
+          "shape": [
+            1000
+          ],
+          "dtype": "float64"
+        },
+        "initial_coordinate": {
+          "shape": [
+            1000
+          ],
+          "dtype": "float64"
+        },
+        "initial_prediction": {
+          "shape": [
+            1000,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "query_x": {
+          "shape": [
+            2000,
+            50
+          ],
+          "dtype": "float64"
+        },
+        "query_y": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_prediction": {
+          "shape": [
+            2000,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "query_coordinate": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_round": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int64"
+        },
+        "query_input_id": {
+          "shape": [
+            2000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_x": {
+          "shape": [
+            5000,
+            50
+          ],
+          "dtype": "float64"
+        },
+        "fixed_y": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_coordinate": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_prediction": {
+          "shape": [
+            5000,
+            5
+          ],
+          "dtype": "float64"
+        },
+        "fixed_sample_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U4"
+        },
+        "fixed_input_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_weight": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_partition": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int16"
+        },
+        "stage": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U2"
+        },
+        "model_state_id": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U64"
+        },
+        "dataset_id": {
+          "shape": [],
+          "dtype": "<U55"
+        }
+      },
+      "severity_direction": -1,
+      "severity_window_edges": [
+        -3.5184484344553995,
+        -2.473652125959159,
+        -1.7097676938321866,
+        -0.5619670290886392,
+        0.5297815878456493,
+        0.8343468269380452
+      ],
+      "coordinates": {
+        "panel_a_x": "sum(x)/sqrt(50)",
+        "panel_a_y": "(x1-x2)/sqrt(2)",
+        "panel_b_x": "sum(x)/sqrt(50)",
+        "response_units": "dimensionless"
+      },
+      "display": {
+        "case_id": "tail-kink",
+        "file": "03_尾部折点.mp4",
+        "width": 1920,
+        "height": 1080,
+        "frames": 600,
+        "fps": 60,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "style": "benchmark-abc-combined-v1",
+        "tracking_highlights_shown": false,
+        "panel_layout": {
+          "a": "3D actual input projections and responses",
+          "b": "response refinement",
+          "c": "response distributions by source level"
+        },
+        "timeline_frames": {
+          "lead": 30,
+          "round_starts": [
+            30,
+            270,
+            366,
+            462
+          ],
+          "round_frames": [
+            240,
+            96,
+            96,
+            96
+          ],
+          "end": 42
+        },
+        "initial_truth_scope": "initial training labels only",
+        "held_out_truth_shown": false,
+        "query_markers_uniform": false,
+        "coverage_colour": "paired prediction and true response",
+        "window_palette": [
+          "#73A8CC",
+          "#2C6B92",
+          "#238F80",
+          "#C79C48",
+          "#C86C4E"
+        ],
+        "model_colour": "#285D63",
+        "density_palette": [
+          "#F8FAFA",
+          "#F0F5F4",
+          "#E3EFEC",
+          "#D2E4DF",
+          "#B8D6D1"
+        ],
+        "prediction_colour_tint": 0.5,
+        "prediction_marker_half": null,
+        "true_response_marker_half": null,
+        "true_response_fixed_after_label": true,
+        "coverage_marker_size": 28.0,
+        "coverage_alpha": 0.9,
+        "response_marker_size": 16.0,
+        "response_alpha": 0.85,
+        "prediction_window_changes_by_round": [
+          223,
+          38,
+          37,
+          33
+        ],
+        "display_interpolation_only": true,
+        "point_source_levels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "layout_revision": "current-round-contrast",
+        "camera": {
+          "elevation": 25.0,
+          "azimuth": -55.0,
+          "projection": "perspective",
+          "focal_length": 1.35,
+          "fixed": true
+        },
+        "response_scale": "linear",
+        "response_transform_parameters": {},
+        "response_grid_range": [
+          -4.158392438561451,
+          8.417964094641384
+        ],
+        "response_grid_points": 1024,
+        "bandwidth": 0.0968656970086282,
+        "bandwidth_candidates": [
+          0.1478495116739689,
+          0.14097534704356496,
+          0.0968656970086282,
+          0.08479721884424694,
+          0.06939614005707666
+        ],
+        "bandwidth_calibration": "first-round pre-update predictions; median robust Silverman bandwidth",
+        "density_coordinate": "original response",
+        "density_height_scale": 0.3905536409881552,
+        "display_density_min_height": 0.0001,
+        "query_markers_uniform_within_round": true,
+        "history_marker_size": 4.0,
+        "history_response_marker_size": 3.0,
+        "current_true_alpha": 0.97,
+        "current_prediction_alpha": 0.92,
+        "history_true_alpha": 0.1,
+        "history_prediction_alpha": 0.0,
+        "history_transition_seconds": 0.16,
+        "current_prediction_marker": "hollow circle",
+        "current_true_marker": "solid circle with thin white edge",
+        "fixed_legends_visible_from_first_frame": true,
+        "all_2000_queries_retained": true,
+        "reference_floor_height": -4.158392438561451,
+        "reference_coordinate_planes": 3,
+        "interpolated_response_surface": false,
+        "points_per_level_per_round": 100,
+        "panel_axes_bounds": {
+          "b": [
+            0.685,
+            0.555,
+            0.2849999999999999,
+            0.25
+          ],
+          "c": [
+            0.685,
+            0.085,
+            0.2849999999999999,
+            0.285
+          ]
+        },
+        "layer_density_scope": "all acquired labels retained across rounds"
+      },
+      "excel_comparison": {
+        "all_rows_checked": 8000,
+        "max_absolute_numeric_difference": 8.881784197001252e-16,
+        "rtol": 5e-14,
+        "atol": 5e-14,
+        "input_ids_match": true,
+        "sample_ids_match": true,
+        "rounds_and_levels_match": true,
+        "windows_match": true
+      }
+    },
+    {
+      "supplementary_video": 4,
+      "case_id": "hysteretic-lab",
+      "file": "hysteretic-lab.npz",
+      "bytes": 5143253,
+      "dimensions": 48,
+      "rows": {
+        "initial": 5000,
+        "query": 2000,
+        "fixed": 5000
+      },
+      "stages": [
+        "A",
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dataset_id": "common_fixed_dataset_v1:hysteretic-lab:tail",
+      "arrays": {
+        "initial_x": {
+          "shape": [
+            5000,
+            48
+          ],
+          "dtype": "float64"
+        },
+        "initial_y": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "initial_coordinate": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "initial_prediction": {
+          "shape": [
+            5000,
+            5
+          ],
+          "dtype": "float64"
+        },
+        "query_x": {
+          "shape": [
+            2000,
+            48
+          ],
+          "dtype": "float64"
+        },
+        "query_y": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_prediction": {
+          "shape": [
+            2000,
+            5
+          ],
+          "dtype": "float64"
+        },
+        "query_coordinate": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_round": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int64"
+        },
+        "query_input_id": {
+          "shape": [
+            2000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_x": {
+          "shape": [
+            5000,
+            48
+          ],
+          "dtype": "float64"
+        },
+        "fixed_y": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_coordinate": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_prediction": {
+          "shape": [
+            5000,
+            5
+          ],
+          "dtype": "float64"
+        },
+        "fixed_sample_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U33"
+        },
+        "fixed_input_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_weight": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_partition": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int16"
+        },
+        "stage": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U2"
+        },
+        "model_state_id": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U64"
+        },
+        "dataset_id": {
+          "shape": [],
+          "dtype": "<U60"
+        }
+      },
+      "severity_direction": 1,
+      "severity_window_edges": [
+        0.1555405879952359,
+        0.19532869662990907,
+        0.24109001895856727,
+        0.30245627098040523,
+        0.37914570838942746,
+        0.4048958131398021
+      ],
+      "coordinates": {
+        "panel_a_x": "sqrt(sum of low-band cosine/sine squared coefficients)",
+        "panel_a_y": "sqrt(sum of high-band cosine/sine squared coefficients)",
+        "panel_b_x": "Excitation RMS",
+        "response_units": "m"
+      },
+      "display": {
+        "case_id": "hysteretic-lab",
+        "file": "04_滞回振子.mp4",
+        "width": 1920,
+        "height": 1080,
+        "frames": 600,
+        "fps": 60,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "style": "oscillator-abc-combined-v1",
+        "tracking_highlights_shown": false,
+        "panel_layout": {
+          "a": "3D input summaries and response heights",
+          "b": "original response refinement",
+          "c": "response densities by source conditioning level"
+        },
+        "timeline_frames": {
+          "lead": 30,
+          "round_starts": [
+            30,
+            270,
+            366,
+            462
+          ],
+          "round_frames": [
+            240,
+            96,
+            96,
+            96
+          ],
+          "end": 42
+        },
+        "initial_truth_scope": "initial training labels only",
+        "held_out_truth_shown": false,
+        "query_markers_uniform": false,
+        "coverage_colour": "separate pale prediction and deep true response",
+        "window_palette": [
+          "#73A8CC",
+          "#2C6B92",
+          "#238F80",
+          "#C79C48",
+          "#C86C4E"
+        ],
+        "model_colour": "#285D63",
+        "density_palette": [
+          "#F8FAFA",
+          "#F0F5F4",
+          "#E3EFEC",
+          "#D2E4DF",
+          "#B8D6D1"
+        ],
+        "prediction_colour_tint": 0.5,
+        "prediction_marker_half": null,
+        "true_response_marker_half": null,
+        "true_response_fixed_after_label": true,
+        "coverage_marker_size": 28.0,
+        "coverage_alpha": 0.84,
+        "response_marker_size": 16.0,
+        "response_alpha": 0.85,
+        "prediction_window_changes_by_round": [
+          187,
+          145,
+          135,
+          136
+        ],
+        "display_interpolation_only": true,
+        "point_source_levels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "camera": {
+          "elevation": 25.0,
+          "azimuth": -55.0,
+          "projection": "perspective",
+          "focal_length": 1.35,
+          "fixed": true
+        },
+        "response_height_source": "recorded query_prediction and query_y",
+        "initial_height_source": "recorded initial_y",
+        "interpolated_response_surface": false,
+        "source_points_per_round": 500,
+        "reference_floor": {
+          "response_height": 0.0,
+          "is_response_surface": false
+        },
+        "reference_coordinate_planes": {
+          "count": 3,
+          "back_planes": [
+            "x_min",
+            "y_max"
+          ],
+          "grid_colour": "#999999",
+          "grid_linewidth": 0.45,
+          "wall_grid_alpha": 0.22,
+          "is_response_surface": false
+        },
+        "density_method": "Gaussian kernel, single frozen data-calibrated bandwidth",
+        "bandwidth_metres": 0.003987918140838339,
+        "bandwidth_candidates_metres": [
+          0.003987918140838339,
+          0.004149470711552729,
+          0.0033097324279370466,
+          0.0032490935613979292,
+          0.004000027586121715
+        ],
+        "bandwidth_calibration": "first-round pre-update predictions only; median robust Silverman bandwidth",
+        "density_height_scale": 0.01695027370064578,
+        "response_grid_points": 1024,
+        "response_grid_range": [
+          0.0,
+          0.8
+        ],
+        "density_height_calibration": "common scaling from the first-round pre-update prediction peak",
+        "all_2000_queries_retained": true,
+        "points_per_level_per_round": 100,
+        "right_upper_data_preserved": true,
+        "right_upper_layout_updated": true,
+        "layout_revision": "current-round-contrast",
+        "query_markers_uniform_within_round": true,
+        "marker_size_encodes": "current versus earlier round",
+        "panel_axes_bounds": {
+          "b": [
+            0.685,
+            0.555,
+            0.2849999999999999,
+            0.25
+          ],
+          "c": [
+            0.685,
+            0.085,
+            0.2849999999999999,
+            0.285
+          ]
+        },
+        "font_sizes_pt": {
+          "panel_title": 18.5,
+          "axis_label": 16.5,
+          "ticks": 14.5,
+          "legend": 13.0
+        },
+        "small_screen_preview_size": [
+          960,
+          540
+        ],
+        "fixed_legends_visible_from_first_frame": true,
+        "history_colour": "#999999",
+        "history_true_alpha": 0.1,
+        "history_prediction_alpha": 0.0,
+        "history_marker_size": 4.0,
+        "history_response_marker_size": 3.0,
+        "current_true_alpha": 0.97,
+        "current_prediction_alpha": 0.92,
+        "current_prediction_marker": "hollow circle",
+        "current_true_marker": "solid circle with thin white edge",
+        "earlier_prediction_markers_visible_after_transition": false,
+        "history_transition_seconds": 0.16,
+        "layer_density_scope": "all acquired labels retained across rounds",
+        "visual_references": [
+          "https://www.nature.com/articles/s42256-024-00810-0/figures/1",
+          "https://www.nature.com/articles/s42256-023-00775-6/figures/2"
+        ]
+      },
+      "excel_comparison": {
+        "all_rows_checked": 12000,
+        "max_absolute_numeric_difference": 8.881784197001252e-16,
+        "rtol": 5e-14,
+        "atol": 5e-14,
+        "input_ids_match": true,
+        "sample_ids_match": true,
+        "rounds_and_levels_match": true,
+        "windows_match": true
+      }
+    },
+    {
+      "supplementary_video": 5,
+      "case_id": "cantilever_beam_2d",
+      "file": "cantilever_beam_2d.npz",
+      "bytes": 753550,
+      "dimensions": 2,
+      "rows": {
+        "initial": 1000,
+        "query": 2000,
+        "fixed": 5000
+      },
+      "stages": [
+        "A",
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "dataset_id": "common_fixed_dataset_v1:cantilever_beam_2d:tail",
+      "arrays": {
+        "initial_x": {
+          "shape": [
+            1000,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "initial_y": {
+          "shape": [
+            1000
+          ],
+          "dtype": "float64"
+        },
+        "initial_coordinate": {
+          "shape": [
+            1000
+          ],
+          "dtype": "float64"
+        },
+        "initial_prediction": {
+          "shape": [
+            1000,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "query_x": {
+          "shape": [
+            2000,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "query_y": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_prediction": {
+          "shape": [
+            2000,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "query_coordinate": {
+          "shape": [
+            2000
+          ],
+          "dtype": "float64"
+        },
+        "query_round": {
+          "shape": [
+            2000
+          ],
+          "dtype": "int64"
+        },
+        "query_input_id": {
+          "shape": [
+            2000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_x": {
+          "shape": [
+            5000,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "fixed_y": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_coordinate": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_prediction": {
+          "shape": [
+            5000,
+            5
+          ],
+          "dtype": "float64"
+        },
+        "fixed_sample_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U39"
+        },
+        "fixed_input_id": {
+          "shape": [
+            5000
+          ],
+          "dtype": "<U64"
+        },
+        "fixed_weight": {
+          "shape": [
+            5000
+          ],
+          "dtype": "float64"
+        },
+        "fixed_partition": {
+          "shape": [
+            5000
+          ],
+          "dtype": "int16"
+        },
+        "stage": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U2"
+        },
+        "model_state_id": {
+          "shape": [
+            5
+          ],
+          "dtype": "<U64"
+        },
+        "dataset_id": {
+          "shape": [],
+          "dtype": "<U64"
+        }
+      },
+      "severity_direction": -1,
+      "severity_window_edges": [
+        -9.09425318951342,
+        -0.24065655106086534,
+        14.28111438319301,
+        39.99807425278935,
+        89.17840627506953,
+        112.3278181931964
+      ],
+      "coordinates": {
+        "panel_a_x": "250+37.5*x2",
+        "panel_a_y": "1000+200*x1",
+        "panel_b_x": "Cross-section height_mm",
+        "response_units": "mm"
+      },
+      "display": {
+        "case_id": "cantilever_beam_2d",
+        "file": "05_悬臂梁.mp4",
+        "width": 1920,
+        "height": 1080,
+        "frames": 600,
+        "fps": 60,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "style": "benchmark-abc-combined-v1",
+        "tracking_highlights_shown": false,
+        "panel_layout": {
+          "a": "3D actual input projections and responses",
+          "b": "response refinement",
+          "c": "response distributions by source level"
+        },
+        "timeline_frames": {
+          "lead": 30,
+          "round_starts": [
+            30,
+            270,
+            366,
+            462
+          ],
+          "round_frames": [
+            240,
+            96,
+            96,
+            96
+          ],
+          "end": 42
+        },
+        "initial_truth_scope": "initial training labels only",
+        "held_out_truth_shown": false,
+        "query_markers_uniform": false,
+        "coverage_colour": "paired prediction and true response",
+        "window_palette": [
+          "#73A8CC",
+          "#2C6B92",
+          "#238F80",
+          "#C79C48",
+          "#C86C4E"
+        ],
+        "model_colour": "#285D63",
+        "density_palette": [
+          "#F8FAFA",
+          "#F0F5F4",
+          "#E3EFEC",
+          "#D2E4DF",
+          "#B8D6D1"
+        ],
+        "prediction_colour_tint": 0.5,
+        "prediction_marker_half": null,
+        "true_response_marker_half": null,
+        "true_response_fixed_after_label": true,
+        "coverage_marker_size": 28.0,
+        "coverage_alpha": 0.9,
+        "response_marker_size": 16.0,
+        "response_alpha": 0.85,
+        "prediction_window_changes_by_round": [
+          244,
+          90,
+          70,
+          71
+        ],
+        "display_interpolation_only": true,
+        "point_source_levels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "layout_revision": "current-round-contrast",
+        "camera": {
+          "elevation": 25.0,
+          "azimuth": -55.0,
+          "projection": "perspective",
+          "focal_length": 1.35,
+          "fixed": true
+        },
+        "response_scale": "symmetric log",
+        "response_transform_parameters": {
+          "base": 10.0,
+          "linthresh": 20.0,
+          "linscale": 0.9
+        },
+        "response_grid_range": [
+          -54.64683369069191,
+          22.94753892834203
+        ],
+        "response_grid_points": 1024,
+        "bandwidth": 0.9252386451648168,
+        "bandwidth_candidates": [
+          0.9252386451648168,
+          1.9519393530589766,
+          1.3140075360337304,
+          0.3974275759332667,
+          0.19002368739062786
+        ],
+        "bandwidth_calibration": "first-round pre-update predictions; median robust Silverman bandwidth",
+        "density_coordinate": "transformed response coordinate",
+        "density_height_scale": 2.369203387640762,
+        "display_density_min_height": 0.0001,
+        "query_markers_uniform_within_round": true,
+        "history_marker_size": 4.0,
+        "history_response_marker_size": 3.0,
+        "current_true_alpha": 0.97,
+        "current_prediction_alpha": 0.92,
+        "history_true_alpha": 0.1,
+        "history_prediction_alpha": 0.0,
+        "history_transition_seconds": 0.16,
+        "current_prediction_marker": "hollow circle",
+        "current_true_marker": "solid circle with thin white edge",
+        "fixed_legends_visible_from_first_frame": true,
+        "all_2000_queries_retained": true,
+        "reference_floor_height": -54.64683369069191,
+        "reference_coordinate_planes": 3,
+        "interpolated_response_surface": false,
+        "points_per_level_per_round": 100,
+        "panel_axes_bounds": {
+          "b": [
+            0.685,
+            0.555,
+            0.2849999999999999,
+            0.25
+          ],
+          "c": [
+            0.685,
+            0.085,
+            0.2849999999999999,
+            0.285
+          ]
+        },
+        "layer_density_scope": "all acquired labels retained across rounds"
+      },
+      "excel_comparison": {
+        "all_rows_checked": 8000,
+        "max_absolute_numeric_difference": 4.547473508864641e-13,
+        "rtol": 5e-14,
+        "atol": 5e-14,
+        "input_ids_match": true,
+        "sample_ids_match": true,
+        "rounds_and_levels_match": true,
+        "windows_match": true
+      }
+    }
+  ]
+}

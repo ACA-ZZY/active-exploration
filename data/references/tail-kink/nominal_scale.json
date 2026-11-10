@@ -1,0 +1,10 @@
+{
+  "scale_id": "common_fixed_dataset_v1:tail-kink:nominal:iqr",
+  "dataset_id": "common_fixed_dataset_v1:tail-kink:nominal",
+  "q25": 4.144187514495162,
+  "q75": 5.478465297046027,
+  "iqr": 1.3342777825508652,
+  "quantile_rule": "linear",
+  "n_states": 10000,
+  "no_model_fitting": true
+}

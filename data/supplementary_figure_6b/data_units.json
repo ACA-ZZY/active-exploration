@@ -1,0 +1,28 @@
+{
+  "methods": [
+    "linear",
+    "nearest",
+    "rbf",
+    "cubic"
+  ],
+  "slope_ratios": [
+    0.75,
+    1,
+    1.25,
+    1.5,
+    1.75,
+    2,
+    2.25,
+    2.5,
+    2.75,
+    3
+  ],
+  "heldout_material_columns": [
+    "friction angle (degree)",
+    "cohesion (Pa)"
+  ],
+  "metric": "NRMSE at finite-element nodes",
+  "normalization": "range of the true friction angles pooled across ten slopes",
+  "normalization_range": 25.189680244614372,
+  "summary": "arithmetic mean across ten slopes"
+}

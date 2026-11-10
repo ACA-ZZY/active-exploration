@@ -1,0 +1,45 @@
+{
+  "schema_version": "gpsearch.sequential-step.v1",
+  "request_id": "case-seed-step",
+  "method": "IVR_LW",
+  "data_npz": "training_history.npz",
+  "input_distribution": {
+    "kind": "gaussian",
+    "domain": [
+      [-6.0, 6.0],
+      [-6.0, 6.0]
+    ],
+    "mean": [0.0, 0.0],
+    "covariance": [
+      [1.0, 0.0],
+      [0.0, 1.0]
+    ]
+  },
+  "seed": 20260907,
+  "budget": {
+    "oracle_total": 750,
+    "training_quota": 500,
+    "audit_quota": 250,
+    "confirmed_training_calls": 0,
+    "confirmed_audit_calls": 0
+  },
+  "gp": {
+    "normalize_y": true,
+    "fix_noise": true,
+    "noise_variance": 0.001,
+    "num_restarts": 10,
+    "optimizer": "bfgs",
+    "max_iters": 1000
+  },
+  "optimizer": {
+    "method": "l-bfgs-b",
+    "num_restarts": 10,
+    "init_method": null,
+    "max_iters": 1000,
+    "ftol": 1e-9,
+    "gtol": 1e-7,
+    "gmm_components": 2,
+    "gmm_covariance_type": "full"
+  },
+  "expected_third_party_commit": "8c5d77b3f0df803029d26828966274d6185c12e4"
+}

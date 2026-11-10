@@ -1,0 +1,51 @@
+case_id,method,status,runs,mean_minutes,sd_minutes,sd_kind,includes_initial_labels_generation,includes_public_scoring
+two-sided-kink,The proposed method,measured,10,0.4078227552136619,0.0325673594690437,sample SD of ten runs,False,False
+radial-kink,The proposed method,measured,10,4.163021715206317,0.2958876963686285,sample SD of ten runs,False,False
+tail-kink,The proposed method,measured,10,4.523420348640405,0.1725644035636659,sample SD of ten runs,False,False
+hysteretic-lab,The proposed method,measured,10,7.147121031816351,0.3074580521221107,sample SD of ten runs,False,False
+cantilever_beam_2d,The proposed method,measured,10,0.270094233682612,0.0236209475350931,sample SD of ten runs,False,False
+two-sided-kink,NN-QBC,measured,10,3.1725034341242613,0.2481459855082822,sample SD of ten runs,False,False
+radial-kink,NN-QBC,measured,10,30.465097824878804,1.9048427221945128,sample SD of ten runs,False,False
+tail-kink,NN-QBC,measured,10,32.830796229818056,1.3492666137789102,sample SD of ten runs,False,False
+hysteretic-lab,NN-QBC,measured,10,79.07388313877814,1.366881322282075,sample SD of ten runs,False,False
+cantilever_beam_2d,NN-QBC,measured,10,1.6484577545147805,0.1478563743591769,sample SD of ten runs,False,False
+two-sided-kink,QBC-LCB,measured,10,2.5161476135649834,0.218493578230032,sample SD of ten runs,False,False
+radial-kink,QBC-LCB,measured,10,30.537007929980412,1.6088475721809674,sample SD of ten runs,False,False
+tail-kink,QBC-LCB,measured,10,33.02460806437758,1.1170718880880264,sample SD of ten runs,False,False
+hysteretic-lab,QBC-LCB,measured,10,79.05089273569435,1.9881573284327891,sample SD of ten runs,False,False
+cantilever_beam_2d,QBC-LCB,measured,10,1.4907868161833266,0.1597201652017698,sample SD of ten runs,False,False
+two-sided-kink,MC-Dropout,measured,10,4.617119069476936,0.3664888351320829,sample SD of ten runs,False,False
+radial-kink,MC-Dropout,measured,10,43.802740844170934,1.9733935708872563,sample SD of ten runs,False,False
+tail-kink,MC-Dropout,measured,10,42.356676426188386,3.23716970022165,sample SD of ten runs,False,False
+hysteretic-lab,MC-Dropout,measured,10,27.02949400773984,1.065665306860042,sample SD of ten runs,False,False
+cantilever_beam_2d,MC-Dropout,measured,10,3.0260065371269422,0.2641202569050024,sample SD of ten runs,False,False
+two-sided-kink,LCMD,measured,10,57.40108926523309,6.937528275150481,sample SD of ten runs,False,False
+radial-kink,LCMD,measured,10,73.00539274191472,12.67512017718547,sample SD of ten runs,False,False
+tail-kink,LCMD,measured,10,67.5370884908478,10.329401362897938,sample SD of ten runs,False,False
+hysteretic-lab,LCMD,measured,10,17.007111134190765,0.256942123418991,sample SD of ten runs,False,False
+cantilever_beam_2d,LCMD,measured,10,59.05828422866974,11.306948540839471,sample SD of ten runs,False,False
+two-sided-kink,AK-SS,measured,10,54.340018333333234,9.438711462263724,sample SD of ten runs,False,False
+radial-kink,AK-SS,measured,10,115.68585666666662,9.312739803057664,sample SD of ten runs,False,False
+tail-kink,AK-SS,measured,10,106.95617000000011,13.71188847114902,sample SD of ten runs,False,False
+hysteretic-lab,AK-SS,timeout,0,,,,False,False
+cantilever_beam_2d,AK-SS,measured,10,7.224763333333395,1.5072504228390986,sample SD of ten runs,False,False
+two-sided-kink,BSS,measured,10,117.85742333333332,40.18140043130741,sample SD of ten runs,False,False
+radial-kink,BSS,measured,10,645.8329334532392,562.7719515013398,sample SD of ten runs,False,False
+tail-kink,BSS,measured,10,9.911376666666476,5.1259833841016675,sample SD of ten runs,False,False
+hysteretic-lab,BSS,timeout,0,,,,False,False
+cantilever_beam_2d,BSS,measured,10,2.2669250000000463,1.4930188275223932,sample SD of ten runs,False,False
+two-sided-kink,MF-AL,measured,10,17.072871877511936,8.895559247400456,sample SD of ten runs,False,False
+radial-kink,MF-AL,measured,10,18.403078660885026,6.131572381451365,sample SD of ten runs,False,False
+tail-kink,MF-AL,measured,10,9.232462213669786,4.604538744322874,sample SD of ten runs,False,False
+hysteretic-lab,MF-AL,measured,10,741.7449556306321,530.0013974027614,sample SD of ten runs,False,False
+cantilever_beam_2d,MF-AL,measured,10,1.1486170446814503,0.4708010355767609,sample SD of ten runs,False,False
+two-sided-kink,Random sampling,measured,10,0.3995338478763491,0.0325331493066673,sample SD of ten runs,False,False
+radial-kink,Random sampling,measured,10,4.144560582542083,0.297826669909156,sample SD of ten runs,False,False
+tail-kink,Random sampling,measured,10,4.503592805307853,0.17338221015522,sample SD of ten runs,False,False
+hysteretic-lab,Random sampling,measured,10,4.3460049904863505,0.2326244796877339,sample SD of ten runs,False,False
+cantilever_beam_2d,Random sampling,measured,10,0.2659057836758439,0.0234389463090629,sample SD of ten runs,False,False
+two-sided-kink,DIR,measured,10,5.8446686261820044,0.4805825814317168,sample SD of ten runs,False,False
+radial-kink,DIR,measured,10,8.641928832756578,0.5049933236462563,sample SD of ten runs,False,False
+tail-kink,DIR,measured,10,8.222971027013797,0.8044080510629528,sample SD of ten runs,False,False
+hysteretic-lab,DIR,measured,10,31.587171964304677,5.1677924688553025,sample SD of ten runs,False,False
+cantilever_beam_2d,DIR,measured,10,2.1407239336171187,0.4745646750880943,sample SD of ten runs,False,False
