@@ -1,0 +1,13 @@
+{
+  "schema_version": "external-runtime.v1",
+  "python_executable": "python",
+  "python_version": "3.8.20",
+  "environment_build_tools": {
+    "pip": "25.0.1",
+    "setuptools": "68.2.2",
+    "wheel": "0.41.2"
+  },
+  "lock_file": "gpsearch-py38.lock.txt",
+  "third_party_checkout": "../third_party/gpsearch",
+  "third_party_commit": "8c5d77b3f0df803029d26828966274d6185c12e4"
+}

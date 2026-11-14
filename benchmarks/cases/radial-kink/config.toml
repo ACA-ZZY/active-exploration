@@ -1,0 +1,14 @@
+[case]
+slug = "radial-kink"
+name = "radial_kink"
+dimension = 8
+adverse = "lower"
+status = "ready"
+
+[seeds]
+root = 20260826
+unconditional = 1
+proxy_chain = 2
+reference_chain = 3
+audit = 4
+error_model = 5

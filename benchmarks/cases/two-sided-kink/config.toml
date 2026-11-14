@@ -1,0 +1,14 @@
+[case]
+slug = "two-sided-kink"
+name = "two_sided_kink"
+dimension = 2
+adverse = "lower"
+status = "ready"
+
+[seeds]
+root = 20260826
+unconditional = 1
+proxy_chain = 2
+reference_chain = 3
+audit = 4
+error_model = 5

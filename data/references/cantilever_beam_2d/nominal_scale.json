@@ -1,0 +1,10 @@
+{
+  "scale_id": "common_fixed_dataset_v1:cantilever_beam_2d:nominal:iqr",
+  "dataset_id": "common_fixed_dataset_v1:cantilever_beam_2d:nominal",
+  "q25": 11.647298217520483,
+  "q75": 15.009549541512055,
+  "iqr": 3.362251323991572,
+  "quantile_rule": "linear",
+  "n_states": 10000,
+  "no_model_fitting": true
+}

@@ -1,0 +1,481 @@
+case_id,method,replicate,status,method_seconds
+two-sided-kink,The proposed method,0,measured,25.465877709473716
+two-sided-kink,The proposed method,1,measured,27.55407077379641
+two-sided-kink,The proposed method,2,measured,24.27072272839723
+two-sided-kink,The proposed method,3,measured,21.95224205579143
+two-sided-kink,The proposed method,4,measured,22.990520244056825
+two-sided-kink,The proposed method,5,measured,21.78227710913052
+two-sided-kink,The proposed method,6,measured,23.35385639264132
+two-sided-kink,The proposed method,7,measured,26.39239322760841
+two-sided-kink,The proposed method,8,measured,26.222457768279128
+two-sided-kink,The proposed method,9,measured,24.709235119022196
+two-sided-kink,NN-QBC,0,measured,185.42864118549392
+two-sided-kink,NN-QBC,1,measured,218.9040987807112
+two-sided-kink,NN-QBC,2,measured,186.39730097475257
+two-sided-kink,NN-QBC,3,measured,170.38031559799853
+two-sided-kink,NN-QBC,4,measured,179.2144709366985
+two-sided-kink,NN-QBC,5,measured,173.02934531766223
+two-sided-kink,NN-QBC,6,measured,194.88004928486063
+two-sided-kink,NN-QBC,7,measured,203.37685729944133
+two-sided-kink,NN-QBC,8,measured,201.6139739988721
+two-sided-kink,NN-QBC,9,measured,190.277007098066
+two-sided-kink,QBC-LCB,0,measured,153.9235789884624
+two-sided-kink,QBC-LCB,1,measured,172.16870123889746
+two-sided-kink,QBC-LCB,2,measured,141.75615828136142
+two-sided-kink,QBC-LCB,3,measured,141.43969700274707
+two-sided-kink,QBC-LCB,4,measured,141.5968917466173
+two-sided-kink,QBC-LCB,5,measured,132.26809831141145
+two-sided-kink,QBC-LCB,6,measured,143.20131311021396
+two-sided-kink,QBC-LCB,7,measured,163.4455500998141
+two-sided-kink,QBC-LCB,8,measured,166.95299820771052
+two-sided-kink,QBC-LCB,9,measured,152.9355811517545
+two-sided-kink,MC-Dropout,0,measured,236.2041832942305
+two-sided-kink,MC-Dropout,1,measured,276.4783773466355
+two-sided-kink,MC-Dropout,2,measured,255.48211306477964
+two-sided-kink,MC-Dropout,3,measured,302.9843706545516
+two-sided-kink,MC-Dropout,4,measured,286.5840258429271
+two-sided-kink,MC-Dropout,5,measured,259.11056677276406
+two-sided-kink,MC-Dropout,6,measured,274.0333541175422
+two-sided-kink,MC-Dropout,7,measured,296.49679708743724
+two-sided-kink,MC-Dropout,8,measured,304.3068348020499
+two-sided-kink,MC-Dropout,9,measured,278.5908187032437
+two-sided-kink,LCMD,0,measured,3506.7511614187297
+two-sided-kink,LCMD,1,measured,3535.4106517687615
+two-sided-kink,LCMD,2,measured,2513.294366955989
+two-sided-kink,LCMD,3,measured,3137.2632614980935
+two-sided-kink,LCMD,4,measured,3561.475341253148
+two-sided-kink,LCMD,5,measured,3461.897306998104
+two-sided-kink,LCMD,6,measured,4033.639275805344
+two-sided-kink,LCMD,7,measured,3888.863702241189
+two-sided-kink,LCMD,8,measured,3292.8549217538657
+two-sided-kink,LCMD,9,measured,3509.2035694466317
+two-sided-kink,Random sampling,0,measured,24.95631450929795
+two-sided-kink,Random sampling,1,measured,27.06399877302465
+two-sided-kink,Random sampling,2,measured,23.687527127738576
+two-sided-kink,Random sampling,3,measured,21.45697685505729
+two-sided-kink,Random sampling,4,measured,22.479457843641285
+two-sided-kink,Random sampling,5,measured,21.32900230961968
+two-sided-kink,Random sampling,6,measured,22.845783591707004
+two-sided-kink,Random sampling,7,measured,25.873405627848115
+two-sided-kink,Random sampling,8,measured,25.751730568590578
+two-sided-kink,Random sampling,9,measured,24.276111519284314
+two-sided-kink,DIR,0,measured,345.6644459399686
+two-sided-kink,DIR,1,measured,359.1445340831124
+two-sided-kink,DIR,2,measured,366.40456152072875
+two-sided-kink,DIR,3,measured,365.69783238705713
+two-sided-kink,DIR,4,measured,338.69613413332263
+two-sided-kink,DIR,5,measured,376.10400381384534
+two-sided-kink,DIR,6,measured,281.26573120077956
+two-sided-kink,DIR,7,measured,382.4916463361006
+two-sided-kink,DIR,8,measured,334.6457466586726
+two-sided-kink,DIR,9,measured,356.6865396356152
+radial-kink,The proposed method,0,measured,224.7151585073443
+radial-kink,The proposed method,1,measured,241.96484371757833
+radial-kink,The proposed method,2,measured,233.82998056377983
+radial-kink,The proposed method,3,measured,240.94735973709612
+radial-kink,The proposed method,4,measured,242.92824309208663
+radial-kink,The proposed method,5,measured,247.48441293474752
+radial-kink,The proposed method,6,measured,247.500224205025
+radial-kink,The proposed method,7,measured,269.25547003877
+radial-kink,The proposed method,8,measured,283.1586927472672
+radial-kink,The proposed method,9,measured,266.0286435800954
+radial-kink,NN-QBC,0,measured,1631.398541685196
+radial-kink,NN-QBC,1,measured,1752.3053133499411
+radial-kink,NN-QBC,2,measured,1760.1782942873394
+radial-kink,NN-QBC,3,measured,1768.457781277535
+radial-kink,NN-QBC,4,measured,1810.730842340647
+radial-kink,NN-QBC,5,measured,1837.2231052650425
+radial-kink,NN-QBC,6,measured,1806.5750529330871
+radial-kink,NN-QBC,7,measured,1942.6643111457731
+radial-kink,NN-QBC,8,measured,2015.5432316703084
+radial-kink,NN-QBC,9,measured,1953.9822209724125
+radial-kink,QBC-LCB,0,measured,1722.0154303317547
+radial-kink,QBC-LCB,1,measured,1739.439704621047
+radial-kink,QBC-LCB,2,measured,1750.6741550845438
+radial-kink,QBC-LCB,3,measured,1792.0125739085884
+radial-kink,QBC-LCB,4,measured,1811.044199254136
+radial-kink,QBC-LCB,5,measured,1832.8412622916096
+radial-kink,QBC-LCB,6,measured,1810.3500534720183
+radial-kink,QBC-LCB,7,measured,1944.5282751872269
+radial-kink,QBC-LCB,8,measured,2026.0853670921024
+radial-kink,QBC-LCB,9,measured,1893.2137367452196
+radial-kink,MC-Dropout,0,measured,2654.3563936174737
+radial-kink,MC-Dropout,1,measured,2520.5734269162526
+radial-kink,MC-Dropout,2,measured,2597.3255069059296
+radial-kink,MC-Dropout,3,measured,2760.1161366277333
+radial-kink,MC-Dropout,4,measured,2781.655071970306
+radial-kink,MC-Dropout,5,measured,2726.127129896426
+radial-kink,MC-Dropout,6,measured,2590.166152738904
+radial-kink,MC-Dropout,7,measured,2406.2593933133394
+radial-kink,MC-Dropout,8,measured,2698.839238627744
+radial-kink,MC-Dropout,9,measured,2546.2260558884514
+radial-kink,LCMD,0,measured,4240.494223744062
+radial-kink,LCMD,1,measured,3611.234207660118
+radial-kink,LCMD,2,measured,5355.427865766818
+radial-kink,LCMD,3,measured,5155.374846869284
+radial-kink,LCMD,4,measured,3235.3353915240914
+radial-kink,LCMD,5,measured,3908.446456573328
+radial-kink,LCMD,6,measured,3752.7437595078823
+radial-kink,LCMD,7,measured,4296.607157009756
+radial-kink,LCMD,8,measured,5086.676429665077
+radial-kink,LCMD,9,measured,5160.895306828422
+radial-kink,Random sampling,0,measured,223.32513250794727
+radial-kink,Random sampling,1,measured,240.6831073157373
+radial-kink,Random sampling,2,measured,232.70709416311
+radial-kink,Random sampling,3,measured,239.77198853724985
+radial-kink,Random sampling,4,measured,241.94458949269028
+radial-kink,Random sampling,5,measured,246.4768361338647
+radial-kink,Random sampling,6,measured,246.35940460517304
+radial-kink,Random sampling,7,measured,268.2178132398112
+radial-kink,Random sampling,8,measured,282.30683154790313
+radial-kink,Random sampling,9,measured,264.94355198176345
+radial-kink,DIR,0,measured,541.8516460469691
+radial-kink,DIR,1,measured,557.733246559219
+radial-kink,DIR,2,measured,540.652145337488
+radial-kink,DIR,3,measured,556.7873221841583
+radial-kink,DIR,4,measured,521.029424275097
+radial-kink,DIR,5,measured,505.353521302226
+radial-kink,DIR,6,measured,490.6218668979709
+radial-kink,DIR,7,measured,512.7883531911357
+radial-kink,DIR,8,measured,470.8436118042154
+radial-kink,DIR,9,measured,487.4961620554677
+tail-kink,The proposed method,0,measured,267.0545507001807
+tail-kink,The proposed method,1,measured,270.12761747761397
+tail-kink,The proposed method,2,measured,266.44778522709385
+tail-kink,The proposed method,3,measured,264.762887956982
+tail-kink,The proposed method,4,measured,264.9074937287369
+tail-kink,The proposed method,5,measured,268.84691298531834
+tail-kink,The proposed method,6,measured,271.1398434039147
+tail-kink,The proposed method,7,measured,270.26423279655864
+tail-kink,The proposed method,8,measured,300.11730466075824
+tail-kink,The proposed method,9,measured,270.3835802470858
+tail-kink,NN-QBC,0,measured,1919.312361611839
+tail-kink,NN-QBC,1,measured,1975.334524924383
+tail-kink,NN-QBC,2,measured,1922.3205699530256
+tail-kink,NN-QBC,3,measured,1945.4802243052584
+tail-kink,NN-QBC,4,measured,1888.997818381555
+tail-kink,NN-QBC,5,measured,1942.979291503823
+tail-kink,NN-QBC,6,measured,1988.2930545275672
+tail-kink,NN-QBC,7,measured,1969.6910298665207
+tail-kink,NN-QBC,8,measured,2184.0624902594045
+tail-kink,NN-QBC,9,measured,1962.0063725574585
+tail-kink,QBC-LCB,0,measured,1952.8793056705636
+tail-kink,QBC-LCB,1,measured,1962.5998249968432
+tail-kink,QBC-LCB,2,measured,1945.017869941959
+tail-kink,QBC-LCB,3,measured,1960.7135543475704
+tail-kink,QBC-LCB,4,measured,1927.3650275915156
+tail-kink,QBC-LCB,5,measured,1979.5858124512004
+tail-kink,QBC-LCB,6,measured,1967.1478068142749
+tail-kink,QBC-LCB,7,measured,1969.7123028448696
+tail-kink,QBC-LCB,8,measured,2166.4555596208475
+tail-kink,QBC-LCB,9,measured,1983.2877743469037
+tail-kink,MC-Dropout,0,measured,2830.918786936967
+tail-kink,MC-Dropout,1,measured,2743.8621062567695
+tail-kink,MC-Dropout,2,measured,2690.220760624522
+tail-kink,MC-Dropout,3,measured,2734.36137441343
+tail-kink,MC-Dropout,4,measured,2562.8620926680233
+tail-kink,MC-Dropout,5,measured,2326.598426062021
+tail-kink,MC-Dropout,6,measured,2440.2463108691336
+tail-kink,MC-Dropout,7,measured,2388.3080962333875
+tail-kink,MC-Dropout,8,measured,2364.133985524956
+tail-kink,MC-Dropout,9,measured,2332.4939161238217
+tail-kink,LCMD,0,measured,3906.6334586103703
+tail-kink,LCMD,1,measured,3634.326808956313
+tail-kink,LCMD,2,measured,4740.068915298838
+tail-kink,LCMD,3,measured,4367.728380585096
+tail-kink,LCMD,4,measured,3726.860315762042
+tail-kink,LCMD,5,measured,4274.310972992808
+tail-kink,LCMD,6,measured,5281.67997000242
+tail-kink,LCMD,7,measured,3801.570351778325
+tail-kink,LCMD,8,measured,3177.9942679128303
+tail-kink,LCMD,9,measured,3611.079652609633
+tail-kink,Random sampling,0,measured,265.80679949960904
+tail-kink,Random sampling,1,measured,268.9203398760292
+tail-kink,Random sampling,2,measured,265.0136248287745
+tail-kink,Random sampling,3,measured,263.59267595637357
+tail-kink,Random sampling,4,measured,263.6767533287057
+tail-kink,Random sampling,5,measured,267.70151218550745
+tail-kink,Random sampling,6,measured,269.98102060481324
+tail-kink,Random sampling,7,measured,269.03931119752815
+tail-kink,Random sampling,8,measured,299.03824906088994
+tail-kink,Random sampling,9,measured,269.38539664648124
+tail-kink,DIR,0,measured,555.3011185676442
+tail-kink,DIR,1,measured,525.4191214381135
+tail-kink,DIR,2,measured,556.2053921688348
+tail-kink,DIR,3,measured,501.3937007842469
+tail-kink,DIR,4,measured,513.2853380791494
+tail-kink,DIR,5,measured,512.5655098060379
+tail-kink,DIR,6,measured,458.97692128419294
+tail-kink,DIR,7,measured,445.9331926565501
+tail-kink,DIR,8,measured,447.268388299417
+tail-kink,DIR,9,measured,417.4339331240917
+hysteretic-lab,The proposed method,0,measured,454.73640271906334
+hysteretic-lab,The proposed method,1,measured,437.0762140948791
+hysteretic-lab,The proposed method,2,measured,432.797941196608
+hysteretic-lab,The proposed method,3,measured,456.8747622914234
+hysteretic-lab,The proposed method,4,measured,417.97432461497374
+hysteretic-lab,The proposed method,5,measured,409.95358324940025
+hysteretic-lab,The proposed method,6,measured,433.31394116995216
+hysteretic-lab,The proposed method,7,measured,402.4589929733047
+hysteretic-lab,The proposed method,8,measured,410.9249149154784
+hysteretic-lab,The proposed method,9,measured,432.16154186472704
+hysteretic-lab,NN-QBC,0,measured,4626.0342182252525
+hysteretic-lab,NN-QBC,1,measured,4739.810127384463
+hysteretic-lab,NN-QBC,2,measured,4718.431558445358
+hysteretic-lab,NN-QBC,3,measured,4752.455445172147
+hysteretic-lab,NN-QBC,4,measured,4696.072811829512
+hysteretic-lab,NN-QBC,5,measured,4827.975619401912
+hysteretic-lab,NN-QBC,6,measured,4870.69971676665
+hysteretic-lab,NN-QBC,7,measured,4622.058552734241
+hysteretic-lab,NN-QBC,8,measured,4782.675255958798
+hysteretic-lab,NN-QBC,9,measured,4808.116577348552
+hysteretic-lab,QBC-LCB,0,measured,4690.559307469481
+hysteretic-lab,QBC-LCB,1,measured,4660.630328176846
+hysteretic-lab,QBC-LCB,2,measured,4656.010650426169
+hysteretic-lab,QBC-LCB,3,measured,4817.253538825087
+hysteretic-lab,QBC-LCB,4,measured,4805.68815888879
+hysteretic-lab,QBC-LCB,5,measured,4614.323594879581
+hysteretic-lab,QBC-LCB,6,measured,4866.22309940626
+hysteretic-lab,QBC-LCB,7,measured,4732.658828316959
+hysteretic-lab,QBC-LCB,8,measured,4613.93268520108
+hysteretic-lab,QBC-LCB,9,measured,4973.255449826354
+hysteretic-lab,MC-Dropout,0,measured,1591.8358373559238
+hysteretic-lab,MC-Dropout,1,measured,1640.7722796690773
+hysteretic-lab,MC-Dropout,2,measured,1667.1763330410226
+hysteretic-lab,MC-Dropout,3,measured,1661.043992868274
+hysteretic-lab,MC-Dropout,4,measured,1605.5876537451074
+hysteretic-lab,MC-Dropout,5,measured,1541.0268562053902
+hysteretic-lab,MC-Dropout,6,measured,1623.2834339107535
+hysteretic-lab,MC-Dropout,7,measured,1742.4305011512968
+hysteretic-lab,MC-Dropout,8,measured,1518.9294466217582
+hysteretic-lab,MC-Dropout,9,measured,1625.610070075301
+hysteretic-lab,LCMD,0,measured,1014.5601591090162
+hysteretic-lab,LCMD,1,measured,998.900395582154
+hysteretic-lab,LCMD,2,measured,1004.8909143107546
+hysteretic-lab,LCMD,3,measured,1048.6735006676836
+hysteretic-lab,LCMD,4,measured,1013.19985691564
+hysteretic-lab,LCMD,5,measured,1017.0152290945516
+hysteretic-lab,LCMD,6,measured,1043.3626341057966
+hysteretic-lab,LCMD,7,measured,1023.7984667987516
+hysteretic-lab,LCMD,8,measured,1019.613264442714
+hysteretic-lab,LCMD,9,measured,1020.2522594873964
+hysteretic-lab,Random sampling,0,measured,251.3120855193265
+hysteretic-lab,Random sampling,1,measured,251.1519048952032
+hysteretic-lab,Random sampling,2,measured,251.98364039500305
+hysteretic-lab,Random sampling,3,measured,287.32836669344397
+hysteretic-lab,Random sampling,4,measured,252.9982474159915
+hysteretic-lab,Random sampling,5,measured,256.2500220514339
+hysteretic-lab,Random sampling,6,measured,280.5177699704218
+hysteretic-lab,Random sampling,7,measured,247.2677593718836
+hysteretic-lab,Random sampling,8,measured,257.00157371572277
+hysteretic-lab,Random sampling,9,measured,271.7916242633801
+hysteretic-lab,DIR,0,measured,1302.8776026086562
+hysteretic-lab,DIR,1,measured,1407.257484059548
+hysteretic-lab,DIR,2,measured,1830.992142430172
+hysteretic-lab,DIR,3,measured,2064.1338972212834
+hysteretic-lab,DIR,4,measured,1999.3538306094704
+hysteretic-lab,DIR,5,measured,1875.7188129572169
+hysteretic-lab,DIR,6,measured,1997.92102123746
+hysteretic-lab,DIR,7,measured,2079.753291057292
+hysteretic-lab,DIR,8,measured,2249.5795549288305
+hysteretic-lab,DIR,9,measured,2144.715541472877
+cantilever_beam_2d,The proposed method,0,measured,19.118121472449275
+cantilever_beam_2d,The proposed method,1,measured,16.75901472926489
+cantilever_beam_2d,The proposed method,2,measured,15.466125466133237
+cantilever_beam_2d,The proposed method,3,measured,17.07576632872224
+cantilever_beam_2d,The proposed method,4,measured,15.854903683182783
+cantilever_beam_2d,The proposed method,5,measured,14.68856356778997
+cantilever_beam_2d,The proposed method,6,measured,17.203399719233857
+cantilever_beam_2d,The proposed method,7,measured,16.291639587667305
+cantilever_beam_2d,The proposed method,8,measured,14.250467934994958
+cantilever_beam_2d,The proposed method,9,measured,15.34853772012866
+cantilever_beam_2d,NN-QBC,0,measured,107.56643513049858
+cantilever_beam_2d,NN-QBC,1,measured,103.8949825512791
+cantilever_beam_2d,NN-QBC,2,measured,94.43429250192276
+cantilever_beam_2d,NN-QBC,3,measured,105.75257540306848
+cantilever_beam_2d,NN-QBC,4,measured,99.7520335062425
+cantilever_beam_2d,NN-QBC,5,measured,84.83708239757107
+cantilever_beam_2d,NN-QBC,6,measured,110.40644560206994
+cantilever_beam_2d,NN-QBC,7,measured,103.37968175195472
+cantilever_beam_2d,NN-QBC,8,measured,86.82015189985032
+cantilever_beam_2d,NN-QBC,9,measured,92.23097196441086
+cantilever_beam_2d,QBC-LCB,0,measured,108.13061953287615
+cantilever_beam_2d,QBC-LCB,1,measured,89.79052656493877
+cantilever_beam_2d,QBC-LCB,2,measured,84.07868915531071
+cantilever_beam_2d,QBC-LCB,3,measured,96.27440877667324
+cantilever_beam_2d,QBC-LCB,4,measured,89.44363740933697
+cantilever_beam_2d,QBC-LCB,5,measured,81.2202740532484
+cantilever_beam_2d,QBC-LCB,6,measured,98.83518942502631
+cantilever_beam_2d,QBC-LCB,7,measured,85.16649388051883
+cantilever_beam_2d,QBC-LCB,8,measured,74.55894175455614
+cantilever_beam_2d,QBC-LCB,9,measured,86.97330915751047
+cantilever_beam_2d,MC-Dropout,0,measured,189.68082971139933
+cantilever_beam_2d,MC-Dropout,1,measured,210.65411832141993
+cantilever_beam_2d,MC-Dropout,2,measured,198.00362940232884
+cantilever_beam_2d,MC-Dropout,3,measured,167.8852428987083
+cantilever_beam_2d,MC-Dropout,4,measured,187.19973592419785
+cantilever_beam_2d,MC-Dropout,5,measured,184.24058024125532
+cantilever_beam_2d,MC-Dropout,6,measured,173.18229556585354
+cantilever_beam_2d,MC-Dropout,7,measured,155.90859189792175
+cantilever_beam_2d,MC-Dropout,8,measured,171.15369766706968
+cantilever_beam_2d,MC-Dropout,9,measured,177.69520064601096
+cantilever_beam_2d,LCMD,0,measured,3299.758006117713
+cantilever_beam_2d,LCMD,1,measured,3138.9068526246056
+cantilever_beam_2d,LCMD,2,measured,3448.0628437770783
+cantilever_beam_2d,LCMD,3,measured,3894.2371172017056
+cantilever_beam_2d,LCMD,4,measured,2705.967586364506
+cantilever_beam_2d,LCMD,5,measured,4976.263195699843
+cantilever_beam_2d,LCMD,6,measured,4330.658297041844
+cantilever_beam_2d,LCMD,7,measured,3001.1423169892732
+cantilever_beam_2d,LCMD,8,measured,3222.3703719621144
+cantilever_beam_2d,LCMD,9,measured,3417.603949423161
+cantilever_beam_2d,Random sampling,0,measured,18.824693071917864
+cantilever_beam_2d,Random sampling,1,measured,16.516199128556764
+cantilever_beam_2d,Random sampling,2,measured,15.25509746579337
+cantilever_beam_2d,Random sampling,3,measured,16.81598272919655
+cantilever_beam_2d,Random sampling,4,measured,15.57647968281526
+cantilever_beam_2d,Random sampling,5,measured,14.452199968713105
+cantilever_beam_2d,Random sampling,6,measured,16.964422117482172
+cantilever_beam_2d,Random sampling,7,measured,16.008183586236555
+cantilever_beam_2d,Random sampling,8,measured,13.960226734518072
+cantilever_beam_2d,Random sampling,9,measured,15.1699857202766
+cantilever_beam_2d,DIR,0,measured,152.37195559593965
+cantilever_beam_2d,DIR,1,measured,138.29662731228746
+cantilever_beam_2d,DIR,2,measured,126.50630822728272
+cantilever_beam_2d,DIR,3,measured,132.68059589038603
+cantilever_beam_2d,DIR,4,measured,144.57071879820433
+cantilever_beam_2d,DIR,5,measured,69.65639045179705
+cantilever_beam_2d,DIR,6,measured,98.73421534502997
+cantilever_beam_2d,DIR,7,measured,139.182707549131
+cantilever_beam_2d,DIR,8,measured,113.2427324577002
+cantilever_beam_2d,DIR,9,measured,169.19210854251287
+two-sided-kink,AK-SS,0,measured,3816.905999999988
+two-sided-kink,AK-SS,1,measured,2952.796000000002
+two-sided-kink,AK-SS,2,measured,3352.514999999985
+two-sided-kink,AK-SS,3,measured,2943.0929999999935
+two-sided-kink,AK-SS,4,measured,3460.890000000014
+two-sided-kink,AK-SS,5,measured,3734.844000000012
+two-sided-kink,AK-SS,6,measured,4305.4679999999935
+two-sided-kink,AK-SS,7,measured,2674.3279999999795
+two-sided-kink,AK-SS,8,measured,2649.875
+two-sided-kink,AK-SS,9,measured,2713.295999999973
+two-sided-kink,BSS,0,measured,5830.764999999985
+two-sided-kink,BSS,1,measured,6530.766000000003
+two-sided-kink,BSS,2,measured,6706.9529999999795
+two-sided-kink,BSS,3,measured,6191.2820000000065
+two-sided-kink,BSS,4,measured,7938.328999999998
+two-sided-kink,BSS,5,measured,7359.453000000009
+two-sided-kink,BSS,6,measured,13509.04700000002
+two-sided-kink,BSS,7,measured,5881.766000000003
+two-sided-kink,BSS,8,measured,5084.531000000017
+two-sided-kink,BSS,9,measured,5681.561999999976
+two-sided-kink,MF-AL,0,measured,690.4833376925963
+two-sided-kink,MF-AL,1,measured,1199.2933470691787
+two-sided-kink,MF-AL,2,measured,1852.0203510951544
+two-sided-kink,MF-AL,3,measured,2056.357771990093
+two-sided-kink,MF-AL,4,measured,846.5201197791903
+two-sided-kink,MF-AL,5,measured,564.9501939225302
+two-sided-kink,MF-AL,6,measured,450.1679756413214
+two-sided-kink,MF-AL,7,measured,971.3132940758952
+two-sided-kink,MF-AL,8,measured,779.4815679054009
+two-sided-kink,MF-AL,9,measured,833.1351673358004
+radial-kink,AK-SS,0,measured,7294.296999999991
+radial-kink,AK-SS,1,measured,7999.437000000005
+radial-kink,AK-SS,2,measured,7752.889999999956
+radial-kink,AK-SS,3,measured,6871.3279999999795
+radial-kink,AK-SS,4,measured,6589.25
+radial-kink,AK-SS,5,measured,6312.218999999983
+radial-kink,AK-SS,6,measured,6513.5929999999935
+radial-kink,AK-SS,7,measured,6696.5620000000345
+radial-kink,AK-SS,8,measured,6775.468999999983
+radial-kink,AK-SS,9,measured,6606.469000000041
+radial-kink,BSS,0,measured,15119.563063412634
+radial-kink,BSS,1,measured,6185.046999999991
+radial-kink,BSS,2,measured,6912.6570000000065
+radial-kink,BSS,3,measured,95571.93517754912
+radial-kink,BSS,4,measured,64044.852313948046
+radial-kink,BSS,5,measured,75185.06424410001
+radial-kink,BSS,6,measured,1410.0780000000375
+radial-kink,BSS,7,measured,55567.32808676577
+radial-kink,BSS,8,measured,52537.93809175119
+radial-kink,BSS,9,measured,14965.297094416705
+radial-kink,MF-AL,0,measured,1845.8143303229008
+radial-kink,MF-AL,1,measured,1072.6447697073454
+radial-kink,MF-AL,2,measured,926.6702271263348
+radial-kink,MF-AL,3,measured,877.598284909327
+radial-kink,MF-AL,4,measured,1337.597714068601
+radial-kink,MF-AL,5,measured,758.3731579727028
+radial-kink,MF-AL,6,measured,1198.759120856179
+radial-kink,MF-AL,7,measured,699.0599364337977
+radial-kink,MF-AL,8,measured,1501.9852195894346
+radial-kink,MF-AL,9,measured,823.3444355443935
+tail-kink,AK-SS,0,measured,7164.921000000002
+tail-kink,AK-SS,1,measured,8149.5779999999795
+tail-kink,AK-SS,2,measured,6130.125
+tail-kink,AK-SS,3,measured,6327.233999999997
+tail-kink,AK-SS,4,measured,6200.061999999976
+tail-kink,AK-SS,5,measured,6394.1720000000205
+tail-kink,AK-SS,6,measured,6268.344000000041
+tail-kink,AK-SS,7,measured,4914.938000000024
+tail-kink,AK-SS,8,measured,6526.983999999997
+tail-kink,AK-SS,9,measured,6097.344000000041
+tail-kink,BSS,0,measured,363.75
+tail-kink,BSS,1,measured,1171.875
+tail-kink,BSS,2,measured,249.65600000001723
+tail-kink,BSS,3,measured,663.2339999999967
+tail-kink,BSS,4,measured,232.31199999997625
+tail-kink,BSS,5,measured,509.780999999959
+tail-kink,BSS,6,measured,793.9060000000172
+tail-kink,BSS,7,measured,967.5469999999624
+tail-kink,BSS,8,measured,447.7029999999795
+tail-kink,BSS,9,measured,547.0619999999763
+tail-kink,MF-AL,0,measured,670.9840275765164
+tail-kink,MF-AL,1,measured,977.3244188688112
+tail-kink,MF-AL,2,measured,913.0926563316024
+tail-kink,MF-AL,3,measured,694.2129910875228
+tail-kink,MF-AL,4,measured,631.9201924793306
+tail-kink,MF-AL,5,measured,516.1635894111241
+tail-kink,MF-AL,6,measured,197.70937336131465
+tail-kink,MF-AL,7,measured,451.32944192778086
+tail-kink,MF-AL,8,measured,304.49542064825073
+tail-kink,MF-AL,9,measured,182.24521650961833
+hysteretic-lab,MF-AL,0,measured,62092.431168051
+hysteretic-lab,MF-AL,1,measured,57676.55543035434
+hysteretic-lab,MF-AL,2,measured,79106.91671374367
+hysteretic-lab,MF-AL,3,measured,74766.0400210586
+hysteretic-lab,MF-AL,4,measured,13720.652127395384
+hysteretic-lab,MF-AL,5,measured,10135.820633861702
+hysteretic-lab,MF-AL,6,measured,62613.229229573895
+hysteretic-lab,MF-AL,7,measured,2039.328924731235
+hysteretic-lab,MF-AL,8,measured,74813.61771541265
+hysteretic-lab,MF-AL,9,measured,8082.381414196803
+cantilever_beam_2d,AK-SS,0,measured,407.4219999999914
+cantilever_beam_2d,AK-SS,1,measured,432.6710000000021
+cantilever_beam_2d,AK-SS,2,measured,411.0309999999881
+cantilever_beam_2d,AK-SS,3,measured,301.0779999999795
+cantilever_beam_2d,AK-SS,4,measured,363.9530000000086
+cantilever_beam_2d,AK-SS,5,measured,500.56200000000536
+cantilever_beam_2d,AK-SS,6,measured,547.1720000000205
+cantilever_beam_2d,AK-SS,7,measured,456.015000000014
+cantilever_beam_2d,AK-SS,8,measured,581.9220000000205
+cantilever_beam_2d,AK-SS,9,measured,333.0320000000065
+cantilever_beam_2d,BSS,0,measured,100.46900000001187
+cantilever_beam_2d,BSS,1,measured,102.04700000002047
+cantilever_beam_2d,BSS,2,measured,117.17200000002047
+cantilever_beam_2d,BSS,3,measured,88.875
+cantilever_beam_2d,BSS,4,measured,124.15599999998813
+cantilever_beam_2d,BSS,5,measured,384.0929999999935
+cantilever_beam_2d,BSS,6,measured,156.4220000000205
+cantilever_beam_2d,BSS,7,measured,85.25
+cantilever_beam_2d,BSS,8,measured,94.65599999995902
+cantilever_beam_2d,BSS,9,measured,107.01500000001396
+cantilever_beam_2d,MF-AL,0,measured,98.5960710606596
+cantilever_beam_2d,MF-AL,1,measured,38.06318938932964
+cantilever_beam_2d,MF-AL,2,measured,68.90409974427894
+cantilever_beam_2d,MF-AL,3,measured,73.5678089959838
+cantilever_beam_2d,MF-AL,4,measured,123.61936575410073
+cantilever_beam_2d,MF-AL,5,measured,82.36175353635917
+cantilever_beam_2d,MF-AL,6,measured,65.89116963426932
+cantilever_beam_2d,MF-AL,7,measured,63.25836440059357
+cantilever_beam_2d,MF-AL,8,measured,29.29820037574973
+cantilever_beam_2d,MF-AL,9,measured,45.61020391754573

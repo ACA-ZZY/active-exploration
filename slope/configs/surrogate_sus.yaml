@@ -1,0 +1,17 @@
+conditional_ged_dir: outputs/conditional_ged
+candidate_file: data/external/surrogate_candidates.csv
+output_csv: outputs/reliability/conditional_pfail.csv
+failure_threshold: 1.0
+keep_ratio: 0.1
+first_level: 1
+max_probability_levels: 4
+num_slopes: 10
+error_sign: 1
+fold: fold_1
+fold_column:
+slope_column: slope
+level_column: level
+yhat_column: y_hat
+weight_column:
+region_probability_column:
+confidence: 0.95
