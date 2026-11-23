@@ -169,5 +169,5 @@ Project code is distributed under the MIT License. The BSS-derived MATLAB files 
 
 ## Contact
 
-Zongyu Zhang, jznv0338@Leeds.ac.uk  
+Zongyu Zhang, jznv0338@Leeds.ac.uk; acazzy@163.com; 2017117214@my.swjtu.edu.cn
 Kaiwen Liu, kaiwen.liu@queensu.ca
